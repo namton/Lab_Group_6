@@ -17,6 +17,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>click</td>
+	<td>link=Currency Exchange with Errors</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=sourceAmount</td>
 	<td>100</td>
@@ -57,6 +62,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>click</td>
+	<td>link=Currency Exchange with Errors</td>
+	<td></td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=sourceAmount</td>
 	<td>200</td>
@@ -91,16 +101,14 @@
 	<td>id=result</td>
 	<td>6.1212 EUR</td>
 </tr>
-
-</tbody></table>
-
-<table cellpadding="1" cellspacing="1" border="1">
-<thead>
-<tr><td rowspan="1" colspan="3">UsdToEur</td></tr>
-</thead><tbody>
 <tr>
 	<td>open</td>
 	<td>http://bit.ly/234lect08</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Currency Exchange with Errors</td>
 	<td></td>
 </tr>
 <tr>
@@ -133,16 +141,19 @@
 	<td>id=calBtn</td>
 	<td>2.02</td>
 </tr>
-
-</tbody></table>
-
-<table cellpadding="1" cellspacing="1" border="1">
-<thead>
-<tr><td rowspan="1" colspan="3">UsdToEur2</td></tr>
-</thead><tbody>
+<tr>
+	<td>assertText</td>
+	<td>id=result</td>
+	<td>2.02 EUR</td>
+</tr>
 <tr>
 	<td>open</td>
 	<td>http://bit.ly/234lect08</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Currency Exchange with Errors</td>
 	<td></td>
 </tr>
 <tr>
@@ -175,7 +186,11 @@
 	<td>id=calBtn</td>
 	<td>3.03</td>
 </tr>
-
+<tr>
+	<td>assertText</td>
+	<td>id=result</td>
+	<td>3.03 EUR</td>
+</tr>
 </tbody></table>
 </body>
 </html>
